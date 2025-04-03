@@ -1,0 +1,145 @@
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+ul li{
+    display: inline;
+    margin: 0 21px;
+    font-size:24px;
+    color:whitesmoke;
+    font-weight: 600;
+}
+ul li:hover{
+    color:cyan;
+}
+.picture{
+    display: flex;
+    height:100%;
+    width:500%;
+}
+.company{
+    display: flex;
+}
+.deals{
+    background-image: url("https://www.openbusiness.ru/upload/iblock/85b/rug_cleaning_services.jpg");
+    background-size:cover;
+    height:767px;
+    width:100%;
+    background-position: center;
+}
+span{
+    color:cyan;
+}
+button{
+    background-color: rgb(0, 170, 255);
+    color:white;
+    height:98px;
+    width:534px;
+    border-radius: 99px;
+    font-size:34px;
+    font-weight: 900;
+    border:3px solid rgb(0, 170, 255);
+    box-shadow: 4px 14px 44px aqua;
+}
+.About-Us{
+    gap:145px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+}
+.service{
+    background-color:rgb(0, 200, 255);
+    height:345px;
+    width:345px;
+    border-radius: 46px;
+}
+.service-2{
+    background-color:rgb(0, 200, 255);
+    height:345px;
+    width:345px;
+    border-radius: 46px;
+}
+.service-3{
+    background-color:rgb(0, 200, 255);
+    height:345px;
+    width:345px;
+    border-radius: 46px;
+}
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+}
+.first,.second,.third{
+    background-color: grey;
+    height:467px;
+    width:367px;
+    border-radius: 34px;
+    border:4px inset cyan;
+}
+.person{
+    height:96px;
+    width:94px;
+    border-radius: 99px;
+}
+h3{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.picture-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:9px;
+}
+.pict{
+    background-image: url("https://decor-of-today.com/upload/iblock/d45/d453d0096c23a593142890ae22fde81b.jpg");
+    width:100%;
+    height:234px;
+    background-size:cover;
+    background-attachment: fixed;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.ellipse{
+    border-radius: 99px;
+    height:123px;
+    width:123px;
+    border:5px solid white;
+    color:white;
+    text-align: center;
+    font-size:44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Number-Info{
+    background-color: rgb(0, 130, 252);
+    height:245px;
+    width:100%;
+}
